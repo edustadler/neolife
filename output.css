@@ -1,0 +1,366 @@
+@font-face {
+	font-family: LucidaGrande;
+	src: local(LucidaGrande.ttf), url(assets/css/fonts/LucidaGrande.ttf);
+}
+
+body {
+	max-width: 100%;
+	background-color: #ffff;
+}
+
+article {
+	padding: 0px 0 90px 15px;
+}
+
+article h4 {
+	color: #9c9494;
+	margin-bottom: 0px;
+	font-size: 1.1rem;
+}
+
+article p {
+	color: #9c9494;
+	font-size: 0.9rem;
+}
+
+ol {
+	list-style-type: none !important;
+}
+
+#first {
+	padding: 15px 0;
+}
+
+.logo {
+	width: 16%;
+	top: 24px;
+	position: relative;
+	z-index: 99999;
+
+}
+
+.ref p {
+	color: #000;
+	margin-bottom: 0;
+}
+.ref span {
+	color: #9c9494;
+	font-size: 0.9rem;
+}
+
+.star {
+	visibility: hidden;
+	font-size: 20px;
+	position: relative;
+	cursor: pointer;
+	top: -8px;
+	margin-left: 8px;
+}
+.star:before {
+	content: "\2605";
+	position: absolute;
+	visibility:visible;
+	color: #aea8a8;
+}
+.star:checked:before {
+	content: "\2606";
+	position: absolute;
+}
+
+.margin {
+	margin: 0 10px;
+}
+
+.box1 {
+	width: 50%;
+	float: left;
+}
+
+.box1 h3 {
+	font-size: 1.2rem;
+}
+
+
+
+.book {
+	font-size: 19px;
+	color: #aea8a8;
+	float: right;
+	position: relative;
+	top: -31px;
+	margin: 0 5px;
+	left: -4px;
+}
+
+.book2 {
+	font-size: 19px;
+	color: #aea8a8;
+	float: right;
+	position: relative;
+	top: -31px;
+	margin: 0 5px;
+	left: -4px;
+}
+
+.box1-2 img {
+	width: 31%;
+	position: relative;
+	display: block;
+	left: 30px;
+	top: 1.2rem;
+
+}
+
+
+#popular h3 {
+	position: relative;
+	font-size: 1.2rem;
+}
+
+.titlepopular {
+	border-bottom: solid #000 1px;
+	width: 270px;
+	position: relative;
+	right: 78px;
+}
+
+
+.numberlist {
+	font-size: 1.8rem;
+	color: #9c9494;
+	padding-right: 20px;
+}
+
+#popular {
+	position: fixed;
+}
+}
+
+
+#popular ol {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	right: 115px;
+	position: relative;
+}
+
+.content {
+	right: 61px;
+	position: relative;
+	width: 270px;
+	max-width: 100%;
+	padding: 15px 0;
+}
+
+.content h3 {
+	float: left;
+	right: 15px;
+	font-size: 1.8rem !important;
+	color: #b9b8b8;
+}
+
+.content h4 {
+	color: #000;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.content p {
+	color: #000;
+	margin: 5px 0;
+}
+
+.data {
+	position: relative;
+	left: 28px;
+	margin: -6px 0 !important;
+	color: #b9b8b8 !important;
+}
+
+.star2 {
+	float: right;
+	top: -20px;
+	right: 40px;
+}
+
+.widgets {
+	position: relative;
+	border-top: solid #000 1px;
+	right: 80px;
+	display: inline-flex;
+	width: 270px;
+}
+
+.widgets ul {
+	list-style-type: none;
+	display: inline-flex;
+	margin: 0 -45px;
+}
+
+.widgets li {
+	margin: 13px 5px;
+	font-size: 0.8rem;
+	color: #b9b8b8;
+}
+
+.sticky.is-sticky {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+}
+
+
+nav {
+	min-height: 55px;
+	top: -25px;
+	background-color: #fff;
+	border-bottom: solid #aea8a8 1px;
+}
+
+
+
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: white;
+	padding: 5px 10px 5px 15px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+#busca1 {
+	display: initial;
+	float: right;
+}
+
+#busca1 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#busca1 input[type=search]:hover {
+	background-color: #fff;
+}
+#busca1 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#busca1 input:-moz-placeholder {
+	color: transparent;
+}
+#busca1 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+
+/*=========================mobile============================================*/
+
+
+@media (max-width: 768px) {
+
+	#first {
+		padding: 15px 0;
+	}
+
+	.logo {
+		width: 29%;
+		top: -6px;
+	}
+
+	article h4 {
+
+		font-size: 0.8rem;
+	}
+
+	article p {
+		font-size: 0.8rem;
+	}
+
+	#popular {
+		display: none;
+	}
+
+	.box1 {
+		width: 68%;
+	}
+
+	.box1 h3 {
+		font-size: 1rem;
+	}
+
+	.ref span {
+		font-size: 0.8rem;
+	}
+
+	.book {
+		top: -44px;
+		left: 30px;
+	}
+
+	.book2 {
+		display: none;
+	}
+
+	.box1-2 img {
+		width: 31%;
+		position: relative;
+		display: block;
+		left: 7px;
+		top: 1.2rem;
+
+	}
+
+}
+
+
+
+
+
+/*# sourceMappingURL=output.css.map */
